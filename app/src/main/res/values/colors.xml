@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="kp_bg">#E8F4FF</color>
+    <color name="kp_blue">#2467D0</color>
+    <color name="kp_blue_dark">#1A4CA0</color>
+    <color name="kp_blue_soft">#DCEBFF</color>
+    <color name="kp_orange">#F5A623</color>
+    <color name="kp_orange_dark">#C47F12</color>
+    <color name="kp_orange_soft">#FFF1CC</color>
+    <color name="kp_green">#2E9E4F</color>
+    <color name="kp_green_dark">#1F7A38</color>
+    <color name="kp_green_soft">#D8F2DE</color>
+    <color name="kp_red">#C62840</color>
+    <color name="kp_red_border">#D9485B</color>
+    <color name="kp_red_soft">#FFE3E6</color>
+    <color name="kp_navy">#1B2A41</color>
+    <color name="kp_grey">#6B7A90</color>
+    <color name="kp_border">#CFE3FA</color>
+    <color name="kp_avatar_pink">#FFB3C1</color>
+    <color name="kp_avatar_yellow">#FFD166</color>
+    <color name="kp_avatar_purple">#C9A9F0</color>
+    <color name="kp_tile_green">#DDF3E1</color>
+    <color name="kp_tile_yellow">#FFEFCC</color>
+    <color name="kp_tile_purple">#E8DCFB</color>
+    <color name="kp_tile_blue">#D8E8FF</color>
+    <color name="kp_brown">#8A5A00</color>
+</resources>

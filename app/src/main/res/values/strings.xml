@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">KidsPlay</string>
+    <string name="parent_dashboard_title" translatable="false">Quản Trị Phụ Huynh - KidsPlay (Java)</string>
+    <string name="hint_kid_name" translatable="false">Tên bé</string>
+    <string name="hint_kid_age" translatable="false">Tuổi</string>
+    <string name="hint_daily_limit" translatable="false">Giới hạn số phút/ngày (ví dụ: 30)</string>
+    <string name="hint_parent_pin" translatable="false">Đặt mã PIN (4 chữ số)</string>
+    <string name="btn_create_kid_profile" translatable="false">Tạo Hồ Sơ &amp; Vào Kid Mode</string>
+</resources>

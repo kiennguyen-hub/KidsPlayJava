@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ô nhập liệu bo tròn -->
+    <style name="KpInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/kp_navy</item>
+        <item name="android:textColorHint">@color/kp_grey</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTint">@color/kp_navy</item>
+    </style>
+
+    <!-- Nút (dùng TextView để giữ đúng nền thiết kế, không bị MaterialButton ghi đè) -->
+    <style name="KpBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="KpBtn.Blue"><item name="android:background">@drawable/bg_btn_blue</item></style>
+    <style name="KpBtn.Orange"><item name="android:background">@drawable/bg_btn_orange</item><item name="android:textColor">@color/kp_navy</item></style>
+    <style name="KpBtn.Green"><item name="android:background">@drawable/bg_btn_green</item></style>
+    <style name="KpBtn.OutlineBlue"><item name="android:background">@drawable/bg_btn_outline_blue</item><item name="android:textColor">@color/kp_blue</item></style>
+    <style name="KpBtn.OutlineRed"><item name="android:background">@drawable/bg_btn_outline_red</item><item name="android:textColor">@color/kp_red</item></style>
+    <style name="KpBtn.OutlineOrange"><item name="android:background">@drawable/bg_btn_outline_orange</item><item name="android:textColor">@color/kp_brown</item></style>
+    <style name="KpBtn.DangerSoft"><item name="android:background">@drawable/bg_btn_danger_soft</item><item name="android:textColor">@color/kp_red</item></style>
+
+    <style name="KpLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/kp_navy</item>
+    </style>
+
+    <style name="KpHeaderTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/kp_navy</item>
+    </style>
+
+    <style name="KpChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/kp_navy</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="KpBackButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/bg_circle_white</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:src">@drawable/ic_back</item>
+        <item name="android:tint">@color/kp_blue</item>
+        <item name="android:contentDescription">Quay lại</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

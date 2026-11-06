@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                style="@style/KpBackButton" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/KpHeaderTitle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="14dp"
+                android:text="Thêm hồ sơ trẻ" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_dashed_circle"
+            android:contentDescription="Chọn ảnh đại diện"
+            android:padding="26dp"
+            android:src="@drawable/ic_camera"
+            android:tint="@color/kp_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="Ảnh đại diện"
+            android:textColor="@color/kp_navy"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/KpLabel"
+            android:text="Tên trẻ" />
+        <EditText
+            android:id="@+id/etName"
+            style="@style/KpInput"
+            android:drawableStart="@drawable/ic_user"
+            android:hint="Họ và tên"
+            android:inputType="textPersonName|textCapWords" />
+
+        <TextView
+            style="@style/KpLabel"
+            android:text="Ngày sinh" />
+        <EditText
+            android:id="@+id/etBirth"
+            style="@style/KpInput"
+            android:clickable="true"
+            android:cursorVisible="false"
+            android:drawableStart="@drawable/ic_calendar"
+            android:focusable="false"
+            android:hint="Ngày sinh"
+            android:inputType="none" />
+
+        <TextView
+            style="@style/KpLabel"
+            android:text="Giới tính" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chipMale"
+                style="@style/KpChip"
+                android:text="♂ Nam" />
+            <TextView
+                android:id="@+id/chipFemale"
+                style="@style/KpChip"
+                android:text="♀ Nữ" />
+            <TextView
+                android:id="@+id/chipOther"
+                style="@style/KpChip"
+                android:text="Khác" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/KpLabel"
+            android:text="Thời gian sử dụng (phút)" />
+        <EditText
+            android:id="@+id/etLimit"
+            style="@style/KpInput"
+            android:drawableStart="@drawable/ic_clock"
+            android:hint="40 phút"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            style="@style/KpLabel"
+            android:text="Sở thích (Tùy chọn)" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chipInt1"
+                style="@style/KpChip"
+                android:text="Truyện tranh" />
+            <TextView
+                android:id="@+id/chipInt2"
+                style="@style/KpChip"
+                android:text="Hoạt hình" />
+            <TextView
+                android:id="@+id/chipInt3"
+                style="@style/KpChip"
+                android:text="Âm nhạc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/chipInt4"
+                style="@style/KpChip"
+                android:text="Khám phá" />
+            <TextView
+                android:id="@+id/chipInt5"
+                style="@style/KpChip"
+                android:text="Học tập" />
+            <TextView
+                android:id="@+id/chipInt6"
+                style="@style/KpChip"
+                android:text="Khác" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/btnSave"
+            style="@style/KpBtn.Blue"
+            android:text="Lưu hồ sơ" />
+    </LinearLayout>
+</ScrollView>

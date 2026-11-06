@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFEBEE"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã hết giờ chơi hôm nay!"
+        android:textSize="26sp"
+        android:textColor="#C62828"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnRequestMoreTime"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Xin Phụ Huynh Thêm Giờ"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnParentUnlock"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Mở Khóa (Phụ Huynh)"
+        android:backgroundTint="#424242" />
+
+</LinearLayout>

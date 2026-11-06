@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.KidsPlay" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/kp_blue</item>
+        <item name="colorPrimaryVariant">@color/kp_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/kp_orange</item>
+        <item name="android:windowBackground">@color/kp_bg</item>
+        <item name="android:statusBarColor">@color/kp_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/kp_navy</item>
+    </style>
+</resources>
